@@ -1,0 +1,57 @@
+html{
+    margin: auto;
+	padding: auto;
+}
+
+.taskBox{
+	border-style: 1px solid;
+	border-radius: 15px;
+}
+
+.delButton {
+	margin-bottom: 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.urgentTaskList .primaryTask, .urgentTaskList .subtask {
+    background-color: #FFB6C1;
+}
+
+.urgentTaskList .primaryTask {
+    font-size: 25px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+.urgentTaskList .subtask {
+    font-size: 20px;
+	padding-bottom: 5px;
+	padding-left: 40px;
+}
+
+.importantTaskList .primaryTask, .importantTaskList .subtask {
+     background-color: #FAFAD2;
+}
+
+.importantTaskList .primaryTask {
+    font-size: 25px;
+}
+
+.importantTaskList .subtask {
+    font-size: 20px;
+}
+
+.regularTaskList .primaryTask, .regularTaskList .subtask {
+     background-color: #FDF5E6;
+}
+
+.regularTaskList .primaryTask {
+    font-size: 25px;
+}
+
+.regularTaskList .subtask {
+    font-size: 20px;
+}
